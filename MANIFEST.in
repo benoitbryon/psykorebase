@@ -1,0 +1,4 @@
+recursive-include psykorebase *
+global-exclude *.pyc
+include *.txt
+include LICENSE README AUTHORS CHANGELOG INSTALL
