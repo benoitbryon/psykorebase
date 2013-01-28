@@ -55,7 +55,7 @@ Supports only Git for now.
 
 .. code-block:: sh
 
-   sudo pip install https://github.com/benoitbryon/psykorebase.git#egg=psykorebase
+   sudo pip install https://github.com/benoitbryon/psykorebase/archive/master.tar.gz#egg=psykorebase
 
 Uninstall with ``sudo pip uninstall psykorebase``.
 

@@ -21,7 +21,7 @@ As an example, with pip:
 
 .. code-block:: sh
 
-   sudo pip install https://github.com/benoitbryon/psykorebase.git#egg=psykorebase
+   sudo pip install https://github.com/benoitbryon/psykorebase/archive/master.tar.gz#egg=psykorebase
 
 
 *********
