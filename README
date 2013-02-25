@@ -70,8 +70,15 @@ Git
 Current, in-development prototype
 ---------------------------------
 
-``psykorebase MASTER TOPIC`` performs a "psycho-rebase" of TOPIC branch on top
-of MASTER.
+``psykorebase MASTER [TOPIC]`` performs a "psycho-rebase" of TOPIC branch on
+top of MASTER. Where TOPIC is optional and defaults to current branch.
+
+Example:
+
+.. code-block:: sh
+
+   git checkout master && git pull --rebase origin master  # Update master.
+   git checkout topic && psykorebase master  # Psykorebase topic on top of master.
 
 Planned usage (in development)
 ------------------------------
