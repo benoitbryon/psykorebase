@@ -1,17 +1,16 @@
 # Local binaries.
 /bin/
 
-# Data files.
-/var/
-
 # Libraries.
 /lib/
+
+# Data files.
+/var/
 
 # Python files.
 *.pyc
 *.pyo
 *.egg-info
 
-
-# Editor(s) temporary files.
-*.swp
+# Editors' temporary buffers.
+.*.swp

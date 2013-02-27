@@ -1,4 +1,4 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
 """Command line interfaces, i.e. scripts."""
 import argparse
 from contextlib import contextmanager
@@ -109,6 +109,14 @@ class GitRebaser(object):
             raise ExecutionError('Unable to guess current branch with "git '
                                  'branch".')
         return current_branch
+
+    def dvcs_directory(self):
+        """Return path to Git directory, i.e. to :file:`.git/`."""
+        command = ['git', 'rev-parse', '--git-dir']
+        process = execute(command, capture=True)
+        stdout, __ = process.communicate()
+        directory = stdout.strip()
+        return directory
 
 
 def is_git(path):
