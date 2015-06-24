@@ -41,7 +41,7 @@ distclean: clean
 
 
 maintainer-clean: distclean
-	rm -rf $(ROOT_DIR)/bin/
+	rm -rf $(BIN_DIR)/
 	rm -rf $(ROOT_DIR)/lib/
 
 
