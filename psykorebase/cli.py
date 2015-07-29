@@ -166,7 +166,7 @@ def psykorebase(args=sys.argv[1:]):
     rebaser = factory(repository_path,
                       primary_branch,
                       secondary_branch)
-    print "Working with {dvcs}, rebasing {secondary} on top of {primary}" \
+    print("Working with {dvcs}, rebasing {secondary} on top of {primary}"
           .format(dvcs=dvcs_type, primary=rebaser.primary_branch,
-                  secondary=rebaser.secondary_branch)
+                  secondary=rebaser.secondary_branch))
     rebaser.rebase()
