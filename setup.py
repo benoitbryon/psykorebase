@@ -11,7 +11,8 @@ def read_relative_file(filename):
 
 
 NAME = 'psykorebase'
-README = read_relative_file('README')
+README = read_relative_file('README.rst')
+CHANGELOG = read_relative_file('CHANGELOG.rst')
 VERSION = read_relative_file('VERSION')
 REQUIRES = []
 ENTRY_POINTS = {
@@ -27,7 +28,7 @@ def run_setup():
     setup(name=NAME,
           version=VERSION,
           description='Easily perform safe (merge-based) rebases.',
-          long_description=README,
+          long_description=README + '\r\n' + CHANGELOG,
           classifiers=['Development Status :: 1 - Planning',
                        'License :: OSI Approved :: BSD License',
                        'Programming Language :: Python :: 2.7',
