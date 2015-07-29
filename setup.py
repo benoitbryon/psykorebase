@@ -17,6 +17,7 @@ REQUIRES = ['setuptools']
 ENTRY_POINTS = {
     'console_scripts': [
         'psykorebase = psykorebase.cli:psykorebase',
+        'git-psykorebase = psykorebase.cli:psykorebase',
     ]
 }
 
