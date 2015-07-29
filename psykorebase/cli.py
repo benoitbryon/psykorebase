@@ -118,6 +118,8 @@ class GitRebaser(object):
                 command.extend(['-m', message])
             if no_ff:
                 command.extend(['--no-ff'])
+            else:
+                command.extend(['--ff'])
             try:
                 execute(command, confirm=self.ask_confirmation)
             except ExecutionError:
