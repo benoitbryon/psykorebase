@@ -1,5 +1,5 @@
 language: python
 python:
   - "2.7"
-install: make configure develop
+install: make develop
 script: make test
