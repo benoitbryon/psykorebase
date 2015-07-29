@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Command line interfaces, i.e. scripts."""
+from __future__ import print_function
 import argparse
 from contextlib import contextmanager
 from os import getcwd, chdir
