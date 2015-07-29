@@ -14,7 +14,7 @@ NAME = 'psykorebase'
 README = read_relative_file('README.rst')
 CHANGELOG = read_relative_file('CHANGELOG.rst')
 VERSION = read_relative_file('VERSION')
-REQUIRES = []
+REQUIRES = ['six']
 ENTRY_POINTS = {
     'console_scripts': [
         'psykorebase = psykorebase.cli:psykorebase',
@@ -32,7 +32,7 @@ def run_setup():
           classifiers=['Development Status :: 1 - Planning',
                        'License :: OSI Approved :: BSD License',
                        'Programming Language :: Python :: 2.7',
-                       ],
+                       'Programming Language :: Python :: 3.4'],
           keywords='git merge rebase',
           author='Benoît Bryon',
           author_email='benoit@marmelune.net',
