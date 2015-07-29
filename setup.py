@@ -13,7 +13,7 @@ def read_relative_file(filename):
 NAME = 'psykorebase'
 README = read_relative_file('README')
 VERSION = read_relative_file('VERSION')
-REQUIRES = []
+REQUIRES = ['six']
 ENTRY_POINTS = {
     'console_scripts': [
         'psykorebase = psykorebase.cli:psykorebase',
