@@ -1,7 +1,9 @@
 CHANGELOG
 =========
 
-1.0.0 (unreleased)
+1.0.0 (2015-07-29)
 ==================
 
-- No changes yet.
+- Add Python3 support.
+- Add Git support
+- Add ``psykorebase BRANCH`` and ``psykorebase --continue`` functionality.

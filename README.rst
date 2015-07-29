@@ -4,9 +4,10 @@ psykorebase
 
 Easily perform merge-based rebases, i.e. rebases that don't alter history.
 
-.. warning::
+You can read the full rationale behind this idea here:
 
-   This project is experimental!
+* http://tech.novapost.fr/merging-the-right-way-en.html
+* http://tech.novapost.fr/psycho-rebasing-en.html
 
 
 *****
@@ -39,11 +40,6 @@ As a summary:
 * the main (and only?) counterpart is that there are more entries in history.
   There are more commits and more merges. Is that a drawback? If you look
   carefully, things are clear and clean. But some developers don't like it...
-
-For detailed explanations, read:
-
-* http://tech.novapost.fr/merging-the-right-way-en.html
-* http://tech.novapost.fr/psycho-rebasing-en.html
 
 
 *******
