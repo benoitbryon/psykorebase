@@ -4,6 +4,10 @@ CHANGELOG
 1.1.0 (unreleased)
 ==================
 
+Improvements around documentation and development environment.
+
+- Feature #19 - Tox runs tests.
+
 - Bug #14 - Documentation (README) explains installation using release on PyPI
   (was using source on Github).
 
