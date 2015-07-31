@@ -46,12 +46,12 @@ As a summary:
 Install
 *******
 
-Currently developped against Python 2.7.x.
-Supports only Git for now.
+Currently developped to support Python 2.7 and Python 3.4+.
+Supports Git only for now.
 
 .. code-block:: sh
 
-   sudo pip install https://github.com/benoitbryon/psykorebase/archive/master.tar.gz#egg=psykorebase
+   sudo pip install psykorebase
 
 Uninstall with ``sudo pip uninstall psykorebase``.
 
