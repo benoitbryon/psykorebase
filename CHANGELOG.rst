@@ -4,7 +4,8 @@ CHANGELOG
 1.1.0 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Bug #14 - Documentation (README) explains installation using release on PyPI
+  (was using source on Github).
 
 
 1.0.1 (2015-07-29)
